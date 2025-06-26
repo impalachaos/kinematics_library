@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools == 72.2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kinematics_library"
+dynamic = [ "description", "version" ]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development"
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0.0",
+]

@@ -1,0 +1,7 @@
+include kinematics_library/*.py[di]
+include kinematics_library/*.so
+include kinematics_library/transforms/*.py[di]
+include kinematics_library/transforms/*.so
+exclude MANIFEST.in
+exclude *.toml
+exclude setup.py

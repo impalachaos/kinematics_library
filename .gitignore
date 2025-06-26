@@ -1,0 +1,8 @@
+.vs
+/.build
+/.deploy
+/.venv*
+__pycache__
+.pytest_cache
+/docs/**/generated
+/docs/build
